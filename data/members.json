@@ -1,0 +1,34 @@
+{
+  "members" : [ {
+    "id" : "admin",
+    "name" : "관리자",
+    "role" : "ADMIN",
+    "creditCard" : null,
+    "points" : {
+      "paid" : 0,
+      "bonus" : 0
+    },
+    "loginHistory" : [ ],
+    "paymentHistory" : [ ],
+    "pendingCalculation" : null
+  }, {
+    "id" : "hot",
+    "name" : "에취에취",
+    "role" : "USER",
+    "creditCard" : {
+      "number" : "123456",
+      "password" : "12"
+    },
+    "points" : {
+      "paid" : 99999946,
+      "bonus" : 0
+    },
+    "loginHistory" : [ "2026-10-19T14:04:16" ],
+    "paymentHistory" : [ {
+      "time" : "2026-10-19T14:05:03",
+      "amount" : 100000000,
+      "result" : "SUCCESS"
+    } ],
+    "pendingCalculation" : null
+  } ]
+}
